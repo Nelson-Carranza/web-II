@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(0, 50, 78);
+} 
+
+/*Puede quitar lo comentado y podra notar funciona el Disabled*/
+
+/*
+button:disabled {
+  background-color: rgb(139, 245, 180);
+  color:red;
+}*/
+
+  .btn-pseudo {
+  
+  text-decoration: none;
+  border: none;
+  padding: 12px 40px;
+  font-size: 20px;
+  background-color: rgb(4, 143, 78);
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.658);
+  transition: 0.5s ;
+}
+
+.btn-pseudo:hover {
+  background-color:rgb(7, 187, 97);
+  border-radius: 8px;
+  border: none;
+  padding: 12px 40px;
+}
+
+.btn-pseudo:active {
+  transform: translateY(5px);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.61);
+  background-color: rgb(30, 240, 135) ;
+}
+
+
+

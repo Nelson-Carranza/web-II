@@ -1,0 +1,35 @@
+.gray {
+  width: 600px;
+  height: 600px;
+  background-color: gray;
+  position: relative;
+}
+
+
+.red {
+  width: 200px;
+  height:200px;
+  background-color: red;
+  position: absolute;
+  top: 30px;
+  right: 758px;
+}
+
+.yellow {
+  width: 200px;
+  height:200px;
+  background-color: yellow;
+  position: absolute;
+  top: 200px;
+}
+
+.green {
+   width: 200px;
+  height:200px;
+  background-color: green;
+  position: absolute;
+  top: 400px;
+  right: 1050px;
+  
+}
+
