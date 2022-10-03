@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(216, 236, 238);
+}
+
+/* clases*/
+
+.box {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.box-1 {
+  background-color: red;
+}
+
+.box-2 {
+  background-color: rgb(233, 136, 0);
+
+  margin: 5px 5px 5px;
+}
+
+.box-3 {
+  background-color: pink;
+  margin: 5px 5px 5px;
+}
+
+.box-4 {
+  background-color: brown;
+   margin: 5px 5px 5px;
+  }
+
+
+.flex-hero,
+.box-3 {
+  display: flex;
+}
+
+.flex-three {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+.flex-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*MEDIA*/
+
+@media (max-width: 1023px) {
+  .box-2 {
+    background-color: aqua;
+  }
+  .flex-hero {
+    display: inline-flex;
+  }
+
+ 
+}
+
+@media (max-width: 767px) {
+  .box-2 {
+    background-color: rgb(4, 67, 67);
+  }
+  .flex-hero {
+    display: block;
+  }
+
+  .flex-three {
+    display: block;
+  }
+
+   .flex-list {
+    display: block;
+  }
+
+
+}
